@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "27280765-1d51-475c-80a4-b7f2d5b300e9",
+		"name": "todo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24595649"
+	},
+	"item": [
+		{
+			"name": "http://localhost:80/api/v1/todo/createtodo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Sunday",
+							"type": "text"
+						},
+						{
+							"key": "task",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "isImportant",
+							"value": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:80/api/v1/todo/createtodo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"v1",
+						"todo",
+						"createtodo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:80/api/v1/todo/getalltodos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:80/api/v1/todo/getalltodos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"v1",
+						"todo",
+						"getalltodos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:80/api/v1/todo/638a399dae597f3a94cfc713",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:80/api/v1/todo/638a399dae597f3a94cfc713",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"v1",
+						"todo",
+						"638a399dae597f3a94cfc713"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:80/api/v1/todo/638a2d8ca4a1c65d55b70c04",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "Monday",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:80/api/v1/todo/638a2d8ca4a1c65d55b70c04",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"v1",
+						"todo",
+						"638a2d8ca4a1c65d55b70c04"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:80/api/v1/todo/638a2d8ca4a1c65d55b70c04",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:80/api/v1/todo/638a2d8ca4a1c65d55b70c04",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"api",
+						"v1",
+						"todo",
+						"638a2d8ca4a1c65d55b70c04"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
